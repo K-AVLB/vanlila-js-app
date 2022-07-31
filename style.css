@@ -14,9 +14,20 @@ align-items: center;
 overflow: hidden;
 }
 
+.readme{
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  animation: tic 0.3s infinite;
+
+}
+
 #greeting{
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
 }
 h1 {
   color: rgba(17, 255, 0, 0.963);
@@ -34,4 +45,14 @@ h1 {
 
 .noClick{
   pointer-events: none;
+}
+
+@keyframes tic {
+  0%{
+    color: rgb(0, 250, 250);
+  }
+
+  100%{
+    color: white;
+  }
 }
