@@ -1,0 +1,68 @@
+.dodo{
+  position: absolute;
+top:150px;
+font-size: 80px;
+color: rgba(17, 255, 0, 0.963);
+font-family: system-ui;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  width: 0px;
+  height: 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-radius: 20%;
+  transition: all 0.5s ease-out;
+}
+
+.list:hover {
+  background-color:rgba(255, 255, 255, 0.9);
+  width: 500px;
+  height: 500px;
+}
+
+.list::-webkit-scrollbar{
+  display: none;
+}
+
+.list form{
+  position: fixed;
+  top:90px;
+}
+
+.list input{
+  font-size: 20px;
+  background-color: black;
+  color: rgba(17, 255, 0, 0.963);
+}
+
+.list button {
+  font-size: 25px;
+  background-color: black;
+  color: rgba(17, 255, 0, 0.963);
+ border: 2px solid black;
+ border-radius: 10px;
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  font-size: 40px;
+  margin: 10px 0px;
+  color: darkred;
+}
+
+.in {
+  text-align: center;
+}

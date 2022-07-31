@@ -1,0 +1,50 @@
+#clock{
+  position: absolute;
+    color: rgba(17, 255, 0, 0.963);
+    background-color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: bold; 
+    z-index: 1;
+  }
+
+
+.time{
+position: absolute;
+top:240px;
+font-size: 40px;
+color: rgba(17, 255, 0, 0.963);
+font-family: fantasy;
+}
+
+
+
+.spin{
+animation: animate 5s infinite ease-in-out;
+}
+
+.spin2{
+  animation: animate2 1s ease-in-out;
+  }
+
+@keyframes animate
+{
+  0%
+  {
+    transform:  rotate(360deg);
+}
+100%
+{
+  transform:  rotate(0deg);
+}}
+
+@keyframes animate2
+{
+  0%
+  {
+    transform:  rotate(-120deg);
+}
+100%
+{
+  transform:  rotate(0deg);
+}}

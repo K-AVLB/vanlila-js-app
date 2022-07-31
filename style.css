@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "circle.css";
+@import "time.css";
+@import "todo.css";
+@import "secret.css";
+@import "weatherRing.css";
+
+body {background-color: black;
+display: flex;
+position: relative;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+#greeting{
+  text-align: center;
+  font-size: 30px;
+}
+h1 {
+  color: rgba(17, 255, 0, 0.963);
+  transition: color 0.5s ease-in-out;
+}
+.active{
+  color: chocolate;
+}
+.cool-font{
+  font-family: 'Courier New', Courier, monospace;
+}
+.hidden {
+  display: none;
+}
+
+.noClick{
+  pointer-events: none;
+}

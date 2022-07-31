@@ -1,0 +1,15 @@
+#weather{
+  position: absolute;
+  top: 360px;
+  font-size: 20px;
+  color: rgba(17, 255, 0, 0.963);
+  background-color: black;
+  }
+.weatherRing{
+  position: absolute;
+  top: 20px;
+  font-size: 70px;
+  
+  color: rgba(17, 255, 0, 0.963);
+}
+

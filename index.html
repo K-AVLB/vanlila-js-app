@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Enjoy code</title>
+  <script src="https://kit.fontawesome.com/c3654d4eb1.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+
+  <div class="circle_center">
+  <form class="hidden circle_center_in" id="login-form">
+    <input class="circle_center_input"
+    required
+    minlength="3" 
+    maxlength="15" 
+    type="text" 
+    placeholder="Code name">
+    <input class="circle_center_input_enter" type="submit" value="Enter">
+  </form>
+  <div id="clock" class="hidden">00:00</div>
+  <h1 id="greeting" class="hidden"></h1>
+</div>
+<form class="quiz hidden"><input type="password" class="answer" placeholder="animal names"></form>
+  <div id="time" class="menu time noClick"><div>Time  Time  Time  Time  Time  Time  </div></div>
+  <div class="dodo noClick">What is your mission today</div>
+  <div class="list hidden"><form id="todo-form" class="listForm">
+    <input maxlength="10" class="in" type="text" placeholder="Today mission" >
+    </form><button class="EXIT">EXIT</button>
+ <ul id="todo-list"></ul></div>
+<div id="secret" class="noClick">
+  <span></span>
+  </div>
+  
+<div id="weather" class="hidden"><span></span><span></span></div>
+<div class="weatherRing noClick">Location / Weather / Temperature / Bigbrother watching you /</div>
+<div id="codeRoom" class="hidden"><a href="quiz.html">Room</a></div>
+  
+<script src="clue.js"></script>
+  <script src="index.js"></script>
+  <script src="clock.js"></script>
+  <script src="background.js"></script>
+  <script src="todo.js"></script>
+  <script src="weather.js"></script>
+  <script src="menu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="circletype.min.js"></script>
+  <script src="menu.js"></script>
+  <script src="exit.js"></script>
+  <script src="circle/todocircle.js"></script>
+  <script src="circle/secret.js"></script>
+  <script src="circle/weather.js"></script>
+
+
+</body>
+</html>

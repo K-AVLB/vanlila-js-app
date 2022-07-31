@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: black;
+}
+
+.title{
+ justify-content: center;
+ align-items: center;
+  color: gold;
+  font-size: 400px;
+
+}
+
+.subtitle{
+  justify-content: center;
+  align-items: center;
+  color: gold;
+  font-size: 100px;
+}
+
+img {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
